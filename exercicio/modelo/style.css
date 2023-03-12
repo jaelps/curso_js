@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(71, 119, 181);
+    font: normal 15pt Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*header{
+    
+}*/
+
+.titulo, .textoRodape{
+    color: white;
+}
+
+.titulo{
+    text-align: center;
+}
+
+
+.box{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.386);
+}
+
+footer{
+    font-style: italic;
+}
