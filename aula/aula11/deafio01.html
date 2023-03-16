@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Nacionalidade</title>
+</head>
+<body>
+    <h1>Validador de Nacionalidade</h1>
+    Pais de Origem: <input type="text" name="txtn" id="txtn">
+    <input type="button" value="Verificar" onclick="validador()">
+    <div id="ret"></div>
+    
+    <script>
+        function validador() {
+            var pais = document.querySelector('input#txtn')
+            var retorno = document.querySelector('div#ret')
+            if (pais == 'Brasil'){
+                retorno.innerHTML = '<p>Você é brasileiro</p>'
+            } else {
+                retorno.innerHTML = '<p>Você é estrangeiro</p>'
+            }
+        }
+    </script>
+</body>
+</html>
