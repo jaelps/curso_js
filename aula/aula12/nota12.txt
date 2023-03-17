@@ -1,0 +1,17 @@
+* condição multipla 
+--> switch
+
+        switch () {
+            case valor 1:
+
+            breack
+            case valor 2:
+
+            breack
+            case valor 3:
+
+            breack
+            default:
+            
+            breack
+        }
