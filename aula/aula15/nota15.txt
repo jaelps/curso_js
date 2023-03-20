@@ -1,0 +1,15 @@
+variaveis compostas
+
+array / vetor
+
+let num = [5, 8, 4]
+num[3]
+num.push(3) = 6 
+num.length
+num.sort()
+
+for(let pos in num){
+    console.log()
+}
+
+num.idexOf(7)

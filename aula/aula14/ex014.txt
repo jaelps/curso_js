@@ -1,0 +1,7 @@
+# continuação de condições e repetições 
+
+com variavel de controle 
+
+for (inicio; test; incr){
+    
+}

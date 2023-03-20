@@ -1,0 +1,9 @@
+estrutura de repetição 
+
+* * * while - estrura de repetição com teste no inicio 
+
+do {
+
+} while {
+
+} ----> estrutura com repetição com teste no final 

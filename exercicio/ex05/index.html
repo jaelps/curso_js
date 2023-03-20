@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hora do dia</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="carregar()">
+<body>
     <header>
-        <h1 class="titulo">Hora do dia</h1>
+        <h1 class="titulo">Tabuada</h1>
     </header>
-    <section>
-        <div id="msg">aqui vai aparecer a hora</div>
-        <div id="foto">
-            <img id="imagem" src="imagem/manha-trans.png" alt="foto do dia">
+    <section >
+        <div>
+            <p>Numero:
+                <input type="number" name="txtn" id="txtn">
+                <input type="button" value="Gerar tabuada" onclick="gerar()">
+            </p>
+        </div>
+        <div>
+            <!--<table id="tabela"></table>-->
+            <select name="tabuada" id="seltab" size="10"></select>
         </div>
     </section>
 
